@@ -10,7 +10,6 @@ a {
   text-decoration: none;
 }
 .main-background {
-  background-color: var(--black);
 }
 .visually-hidden {
   position: absolute;
@@ -69,6 +68,11 @@ p {
 }
 
 /* Mobile-menu Styles */
+@media screen and (min-width: 1279.98px) {
+  .js-menu-container {
+    display: none;
+  }
+}
 .menu-toggle-burger {
 }
 .menu-toggle {
